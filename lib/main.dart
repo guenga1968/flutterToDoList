@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: tdBGColor,
         appBar: _buildAppBar(),
-        body:  Home(),
+        body: const Home(),
       ),
     );
   }
@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
             ),
             CircleAvatar(
               backgroundColor: tdRed,
+              child: Icon(Icons.person),
             ),
           ],
         ),
